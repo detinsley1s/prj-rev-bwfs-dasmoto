@@ -1,0 +1,38 @@
+/* Full Page */
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+/* Headers */
+h1 {
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+    background-image: url("../img/pattern.jpeg");
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+/* Classes */
+.prices {
+    font-weight: bold;
+    color: blue;
+}
+
+/* IDs */
+#brushes {
+    background-color: mediumspringgreen;
+}
+
+#frames {
+    background-color: lightcoral;
+}
+
+#paint {
+    background-color: skyblue;
+}
