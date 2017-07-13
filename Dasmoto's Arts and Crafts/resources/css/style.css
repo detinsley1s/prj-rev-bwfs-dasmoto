@@ -1,10 +1,10 @@
 /* Full Page */
-html {
+* {
     font-family: Helvetica, sans-serif;
 }
 
-/* Headers */
-h1 {
+#main-header {
+    font-family: 'Lobster', cursive;
     font-size: 100px;
     font-weight: bold;
     color: khaki;
@@ -12,27 +12,25 @@ h1 {
     background-image: url("../img/pattern.jpeg");
 }
 
-h2 {
+.secondary-header {
     font-size: 32px;
     font-weight: bold;
     color: white;
 }
 
-/* Classes */
-.prices {
-    font-weight: bold;
-    color: blue;
-}
-
-/* IDs */
-#brushes {
+#brushes .secondary-header {
     background-color: mediumspringgreen;
 }
 
-#frames {
+#frames .secondary-header {
     background-color: lightcoral;
 }
 
-#paint {
+#paint .secondary-header {
     background-color: skyblue;
+}
+
+.prices {
+    font-weight: bold;
+    color: blue;
 }
